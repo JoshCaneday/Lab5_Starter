@@ -35,7 +35,7 @@ function init() {
     }
 
     utterance.onstart = () => {
-      faceImg.src = 'assets/images/open.png';
+      faceImg.src = 'assets/images/smiling-open.png';
     };
 
     utterance.onend = () => {
