@@ -23,7 +23,7 @@ function init() {
 
   volume_button.addEventListener('input', (event) => {
     const val = event.target.value;
-    audioElement.volume = val / 100;
+    audio.volume = val / 100;
 
     let icon = "volume-level-0.svg";
     if (val >= 67) icon = "volume-level-3.svg";
